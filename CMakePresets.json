@@ -65,11 +65,12 @@
                 "ENABLE_FEAT_F4HWN_GMRS_FRS_MURS": false,
                 "ENABLE_FEAT_F4HWN_CA": true,
                 "ENABLE_FEAT_F4HWN_DEBUG": false,
+                "ENABLE_FEAT_F4HWN_MEM": false,
                 "ENABLE_AGC_SHOW_DATA": false,
                 "ENABLE_UART_RW_BK_REGS": false,
                 "ENABLE_SWD": false,
                 "VERSION_STRING_1": "v0.22",
-                "VERSION_STRING_2": "v5.1.0"
+                "VERSION_STRING_2": "v5.2.0"
             }
         },
         {
@@ -190,7 +191,7 @@
                 "ENABLE_FEAT_F4HWN_AUDIO": true,
                 "ENABLE_SWD": true,
                 "EDITION_STRING": "Fusion",
-                "TARGET": "uv-k5-k6-k1_py32f071_en_firmware_for_dtrac.fusion"
+                "TARGET": "uv-k1-k5-k6_py32f071_en_firmware_for_dtrac.fusion"
             }
         }
     ],

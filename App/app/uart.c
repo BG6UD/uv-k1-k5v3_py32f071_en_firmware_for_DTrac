@@ -1050,6 +1050,7 @@ void UART_HandleCommand(uint32_t Port)
     case 0x5555:
         CMD_5555(pUART_Command->Buffer); // for DTrac app MONITOR
         break;
+
     case 0x0514:
         CMD_0514(Port, pUART_Command->Buffer);
         break;
