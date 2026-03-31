@@ -212,8 +212,8 @@ void UI_DisplayWelcome(void)
         #endif
 
         sprintf(WelcomeString3, "%s Edition", Edition);
-        // UI_PrintStringSmallNormal(WelcomeString3, 0, 127, 6);
-        UI_PrintStringSmallNormal("for DTrac v1.0.2", 0, 127, 6);
+        //UI_PrintStringSmallNormal(WelcomeString3, 0, 127, 6);
+        UI_PrintStringSmallNormal("for DTrac v1.0.3", 0, 127, 6);
 
 #else
         UI_PrintStringSmallNormal(Version, 0, 127, 6);
@@ -223,7 +223,7 @@ void UI_DisplayWelcome(void)
         ST7565_BlitFullScreen();
 
         #ifdef ENABLE_FEAT_F4HWN_SCREENSHOT
-            getScreenShot(true);
+            SCREENSHOT_Update(true);
         #endif
     }
 }
