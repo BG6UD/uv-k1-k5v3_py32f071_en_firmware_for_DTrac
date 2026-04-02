@@ -14,15 +14,12 @@
 # 视频演示： https://v.douyin.com/rpza7seZ6w8/
 
 # for DTrac 修改文件
-CMakePresets.json -> "ENABLE_BYP_RAW_DEMODULATORS": true;
+- CMakePresets.json -> "ENABLE_BYP_RAW_DEMODULATORS": true;
+- CMakePresets.json -> "ENABLE_DTRAC": true,
+- CMakeLists.txt - > enable_feature(ENABLE_DTRAC)
+- App/app/uart.c
+- App/ui/welcome.c
 
-CMakePresets.json -> "ENABLE_DTRAC": true,
-
-CMakeLists.txt - > enable_feature(ENABLE_DTRAC)
-
-App/app/uart.c
-
-App/ui/welcome.c
 # Stats
 
 ![Alt](https://repobeats.axiom.co/api/embed/ecdd86aa536b716f088339a0c5ee734558f78c28.svg "Repobeats analytics image")
