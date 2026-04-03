@@ -16,6 +16,9 @@
 <div align="left">
   <img src="https://dtrac.cn/lib/exe/fetch.php?media=topologymap.png" width="60%">
 </div>
+<div align="left">
+  <img src="https://dtrac.cn/lib/exe/fetch.php?media=dtrac_quansheng_01.png" width="60%">
+</div>
 
 # 视频演示： https://v.douyin.com/rpza7seZ6w8/
 
