@@ -17,7 +17,11 @@
   <img src="https://dtrac.cn/lib/exe/fetch.php?media=topologymap.png" width="60%">
 </div>
 
-# 视频演示： https://v.douyin.com/rpza7seZ6w8/
+# 视频演示： 
+
+<video controls src="https://dtrac.cn/lib/exe/fetch.php?media=dtrac_quansheng_uvk6.mp4" width="60%"></video>
+
+https://v.douyin.com/rpza7seZ6w8/
 
 # for DTrac 修改文件
 - CMakePresets.json -> "ENABLE_BYP_RAW_DEMODULATORS": true;
