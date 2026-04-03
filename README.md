@@ -13,7 +13,7 @@
 
 # 系统架构
 
-<div align="center">
+<div align="left">
   <img src="https://dtrac.cn/lib/exe/fetch.php?media=topologymap.png" width="60%">
 </div>
 
